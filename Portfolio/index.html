@@ -1,120 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-      </style>
-    <title>Wibsy</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--SCSS-->
+  <link rel="stylesheet" href="css/style.scss">
+  <!--Boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--JS Transiciones-->
+  <script src="js/scrollreveal.js"></script>
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+    </style>
+  <title>Wibsy</title>
 </head>
-<body>
-    <div class="navegacion" id="navbar">
-        <nav class="navbar navbar-expand-lg bg-opacity-10">
-            <div class="container-fluid">
-              <a class="navbar-brand offset-lg-1" href="#"><img src="imagenes/Logo_wibsy.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-lg-8">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#portafolio">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#techs">Technologies</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
-                </ul>
-            
-              </div>
-            </div>
-          </nav>
+<body> 
+
+<!--NavBar-->
+<div class="navegacion " id="navbar">
+  <nav class="navbar navbar-expand-lg bg-opacity-10">
+      <div class="container-fluid">
+        <a class="navbar-brand offset-lg-1" href="#"><img src="imagenes/Logo_wibsy.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-lg-8 link-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white " id="link-nav" href="#portafolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " id="link-nav2" href="#techs">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " id="link-nav3" href="#">About us</a>
+            </li>
+          </ul>
+      
+        </div>
+      </div>
+  </nav>
 </div>
-    
-    <div class="imagen-fondo">
-        <img src="Imagenes/Imagen-fondo.jpg "  alt="An image of a programmer writing">
-    </div>
-    <hero>
-        <h1 class="Titulo"> We are Wibsy we are a team of web developers </h1>    
-    </hero>
+
+
+
+<div class="imagen-fondo">
+    <img src="Imagenes/Imagen-fondo 2.jpg"  alt="An image of a programmer writing">
+</div>
 
 
 
 
 
-    <!--Portafolio-->
-    <section class="section-port" id="portafolio">
-    <div class="portafolio">
-
-      <h1>Portfolio</h1>
-
-    </div>
 
 
 
-    <!--CARDS-->
-    <div class="container">
 
-      <div class="row">
 
-        <div class="card col" style="width: 18rem;">
-          <img class="card-img-top" src="Imagenes/Captura.JPG" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Mercado Liebre</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://meek-bienenstitch-f4f813.netlify.app/" class="btn btn-primary">Go to the page</a>
-          </div>
+<!--Olas-->
+<div Class="Header">
+<div Class="Inner-Header Flex">
+<hero>
+  
+  <h1 class="Titulo">Wibsy Sites</h1>    
+</hero>
+</div>
+  <Div>
+    <Svg Class="Waves" Xmlns="Http://Www.W3.Org/2000/Svg" Xmlns:xlink="Http://Www.W3.Org/1999/Xlink"
+    ViewBox="0 24 150 28" PreserveAspectRatio="None" Shape-Rendering="Auto">
+    <Defs>
+      <Path Id="Gentle-Wave" D="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 V44h-352z" />
+    </Defs>
+    <G Class="Parallax">
+      <Use Xlink:href="#Gentle-Wave" X="48" Y="0" Fill="Rgba(255,255,255,0.7" />
+      <Use Xlink:href="#Gentle-Wave" X="48" Y="3" Fill="Rgba(255,255,255,0.5)" />
+      <Use Xlink:href="#Gentle-Wave" X="48" Y="5" Fill="Rgba(255,255,255,0.3)" />
+      <Use Xlink:href="#Gentle-Wave" X="48" Y="7" Fill="#Fff" />
+    </G>
+    </Svg>
+  </div>
+</div>
+
+
+
+
+<!--Portafolio-->
+<section class="section-port" id="portafolio">
+<div class="portafolio">
+  <h2>Portfolio</h2>
+</div>
+  <!--CARDS-->
+  <div class="container-fluid">
+
+    <div class="row card-transition flex-cards">
+
+      <div class="card col-xl-2 col-md-5 col-sm-10 card-transition1 cartas" style="width: 18rem;">
+        <img class="card-img-top" src="Imagenes/Captura.JPG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Mercado Liebre</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://meek-bienenstitch-f4f813.netlify.app/" target="_blank" class="btn btn-primary">Go to the page</a>
         </div>
+      </div>
 
-        <div class="card col offset-1" style="width: 18rem;">
-          <img class="card-img-top" src="Imagenes/Blogperros.JPG" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Dog´s blog</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go to the page</a>
-          </div>
+      <div class="card col-xl-2 col-md-5 col-sm-10 offset-md-sm-1 card-transition2 cartas" style="width: 18rem;">
+        <img class="card-img-top" src="Imagenes/Blogperros.JPG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Dog's blog</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go to the page</a>
         </div>
+      </div>
 
-        <div class="card col offset-1" style="width: 18rem;">
-          <img class="card-img-top" src="Imagenes/website pizzeria.JPG" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Perfect Pizza</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go to the page</a>
-          </div>
+      <div class="card col-xl-2 col-md-5 col-sm-10 offset-md-sm-1 card-transition3 cartas" style="width: 18rem;">
+        <img class="card-img-top" src="Imagenes/website pizzeria.JPG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Perfect Pizza</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go to the page</a>
         </div>
 
       </div>
+      <div class="card col-xl-2 col-md-5 col-sm-10 offset-md-sm-1 card-transition4 cartas" style="width: 18rem;">
+        <img class="card-img-top" src="Imagenes/website pizzeria.JPG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Perfect Pizza 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go to the page</a>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
 
   <!--Tecnologias-->
+<div class="empuje">
+  <h2 class="titulo-tecnologias">Technologies that we master</h2>
+<section class="tecnologias" id="techs">
+  <div class="container-fluid ">
+
+    <div class="row flex-cards">
+
+      <div class="col-xl-2 col-md-5 col-sm-10 " style="width: 18rem;">
+        <img src="Imagenes/Logo_html.png" alt="Logo HTML">
+      </div>
+      <div class="col-xl-2 col-md-5 col-sm-10 " style="width: 18rem;">
+        <img src="Imagenes/Logo_css.png" alt="Logo HTML">
+      </div>
+      <div class="col-xl-2 col-md-5 col-sm-10 " style="width: 18rem;">
+        <img src="Imagenes/Logo_JS.png" alt="Logo HTML">
+      </div>
+      
+    </div>
+  </div>
+</section>
+</div>
 
 
-  <section class="tecnologias" id="techs">
-    <h1 class="titulo-tecnologias">Technologies that we master</h1>
+<footer>
+  <hr class="separacion">
+  <section class="footer-flex row">
+      <div class="col-xl-6 col-md-6 col-sm-12">
+          <h3>Seguinos</h3>
+          <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100087962684905" target="_blank"><i class='bx bxl-facebook'></i>Facebook</a></li>
+              <li><a href="https://www.instagram.com/wibsysites/id=100087962684905" target="_blank"><i class='bx bxl-instagram'></i>Instagram</a></li>
+              <li><a href="https://es.fiverr.com/wibsytes?up_rollout=true" target="_blank"><i class='bx bx-store'></i>Fiverr</a></li>
 
-    <img src="Imagenes/techs.png" alt="HTML CSS JS" class="imagen-techs">
+              
+          </ul>
+      </div>
+
+      <div class="col-xl-6 col-md-6 col-sm-12">
+          <h3>Trabaja con nosotros</h3>
+          <span><a href="https://mail.google.com" target="_blank">wibsytes@gmail.com</a></span>
+      </div>
   </section>
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</footer>
 </body>
+<!--script.js-->
+<script src="js/script.js"></script>
+<!--BOOTSTRAP-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </html>
